@@ -14,7 +14,23 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@tractors-playback-workspace/shared-colleagues-results": [
+        "libs/shared-colleagues-results/src/index.ts"
+      ],
+      "@tractors-playback-workspace/shared-footers": [
+        "libs/shared-footers/src/index.ts"
+      ],
+      "@tractors-playback-workspace/shared-headers": [
+        "libs/shared-headers/src/index.ts"
+      ],
+      "@tractors-playback-workspace/shared-sort-pipe": [
+        "libs/shared-sort-pipe/src/index.ts"
+      ],
+      "@tractors-playback-workspace/shared-types": [
+        "libs/shared-types/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

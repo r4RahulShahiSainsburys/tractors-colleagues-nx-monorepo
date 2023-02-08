@@ -1,0 +1,19 @@
+/* Your styles goes here. */
+.app-container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.colleagues-results-container {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.colleagues-results-container-list {
+    display: flex;
+    justify-content: space-between;
+}

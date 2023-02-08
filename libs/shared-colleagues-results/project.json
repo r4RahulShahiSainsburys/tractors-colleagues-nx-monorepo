@@ -1,0 +1,18 @@
+{
+  "name": "shared-colleagues-results",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared-colleagues-results/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/shared-colleagues-results/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    }
+  }
+}
